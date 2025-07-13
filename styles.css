@@ -1,25 +1,320 @@
-.Bill_type{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.bill_wrapper {
+  font-family: Roboto;
 }
-.Bill_type span{
-    border: 1px solid rgb(2, 89, 21);
-    background: rgba(3, 63, 16, 0.261);
-    color:rgb(2, 89, 21) ;
-    padding: 5px 10px;
-    border-radius: 5px;
-     font-family: "Roboto", sans-serif;
-     font-size: 16px;
-     font-weight: 600;
+.Bill_type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -46px;
 }
-.bill_logo{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
+.Bill_type span {
+  border: 1px solid #025915;
+  background: rgba(3, 63, 16, 0.261);
+  color: #025915;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
 }
-.bill_logo img{
-   height: 50px;
-    width: 70px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bill_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.bill_logo h1 {
+  color: #a70000;
+  font-size: 19px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.bill_logo h2 {
+  color: #a70000;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.brbLogo {
+  align-items: center;
+  justify-content: center;
+}
+.brbLogo h2 {
+  color: #025915;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+.bill_logo img {
+  height: 50px;
+  width: 70px;
+}
+.brbLogo {
+  padding-top: 29px;
+}
+.brbLogo img {
+  height: 70px;
+  width: 70px;
+}
+.shop_name h1 {
+  color: #025915;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 46px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.shop_name p {
+  color: #a70000;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.shop_contact_area {
+  margin-bottom: -48px;
+}
+.shop_contact_area ul {
+  padding-left: 0;
+}
+.shop_contact_area ul li {
+  display: flex;
+  justify-content: end;
+  column-gap: 7px;
+  align-items: center;
+  color: #a70000;
+  font-size: 14px;
+  font-weight: 500;
+}
+.date_bill_number_holydaytext {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+.date_bill_number_holydaytext h1 {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 500;
+}
+.holidaybox {
+  background: #025915;
+  padding: 7px 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+.date_box {
+  border: 1px solid #025915;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  border-radius: 30px;
+}
+.date_box span {
+  background: #025915;
+  padding: 7px 20px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+.date_box h1 {
+  padding-right: 15px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.customer_name_area {
+  border: 1px solid #025915;
+  border-radius: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 7px;
+}
+.customer_name_area span {
+  background: #025915;
+  padding: 7px 20px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+.customer_name_area h1 {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.address_area {
+  border: 1px solid #a70000;
+  border-radius: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 7px;
+}
+.address_area span {
+  background: #a70000;
+  padding: 7px 12px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+.address_area h1 {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.tkInwordArea {
+  border: 1px dashed #a70000;
+  border-radius: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 7px;
+}
+.tkInwordArea span {
+  background: #a70000;
+  padding: 7px 12px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+.tkInwordArea h1 {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.billing_table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 7px;
+}
+.billing_table thead tr {
+  background: #025915;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.billing_table thead tr th {
+  padding: 5px 2px;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid #ffffff;
+}
+.billing_table tr td {
+  border: 1px solid #025915;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  vertical-align: middle;
+  text-align: center;
+  padding: 5px 2px;
+}
+.billing_table tfoot tr td {
+  border: 1px solid #025915;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  vertical-align: middle;
+  text-align: center;
+  padding: 5px 2px;
+  text-transform: uppercase;
+}
+.vatandsubtotalcalculationarea {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+}
+.vatandsubtotalcalculationarea table {
+  border-collapse: collapse;
+}
+.vatandsubtotalcalculationarea table tr td {
+  border: 1px solid #025915;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  vertical-align: middle;
+  text-align: center;
+  padding: 5px 2px;
+  text-transform: uppercase;
+}
+.billingTable_area {
+  position: relative;
+}
+.water_mark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.2;
+  width: 200px;
+  height: 200px;
+}
+.water_mark img {
+  width: 100%;
+}
+.email_website {
+  text-align: center;
+  color: #a70000;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.bill_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+.athentication_area {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  font-size: 14px;
+  color: #025915;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding-top: 50px;
+  margin-bottom: 10px;
+}
+.terms_condition_area {
+  margin-top: 10px;
+}
+.terms_condition_area h1 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-decoration: underline;
 }
